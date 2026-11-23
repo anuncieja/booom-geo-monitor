@@ -55,10 +55,12 @@ jobs:
             git push origin HEAD:main
           fi
       - run: python bridge.py recolher
-      - uses: actions/upload-artifact@v4
+      - name: Registrar resultado no resumo gratuito do job
         if: always()
-        with:
-          name: retorno-poc-${{ github.run_id }}
-          path: output/retorno.json
-          if-no-files-found: warn
-          retention-days: 14
+        run: |
+          if [ -f output/retorno.json ]; then
+            echo '### Estado da ponte (teste técnico)' >> "$GITHUB_STEP_SUMMARY"
+            echo '~~~json' >> "$GITHUB_STEP_SUMMARY"
+            cat output/retorno.json >> "$GITHUB_STEP_SUMMARY"
+            echo '~~~' >> "$GITHUB_STEP_SUMMARY"
+          fi
