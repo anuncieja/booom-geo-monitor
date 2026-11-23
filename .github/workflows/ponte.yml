@@ -35,8 +35,17 @@ jobs:
           python-version: '3.12'
       - run: python -m unittest -v
       - name: Enviar teste
-        if: github.event_name == 'workflow_dispatch' && inputs.acao == 'enviar'
+        if: github.event_name != 'workflow_dispatch' || inputs.acao == 'enviar'
+        env:
+          EVENT_NAME: ${{ github.event_name }}
         run: |
+          if [ "$EVENT_NAME" != "workflow_dispatch" ]; then
+            # Apenas um envio automatico de integracao apos o teste inicial.
+            if ! python -c 'from pathlib import Path; from bridge import load, valid_return; job=load(Path("queue/job.json")); p=Path("results/poc-gh-2026112301.json"); raise SystemExit(0 if job["job_id"]=="poc-gh-2026112301" and p.exists() and valid_return(job,load(p)) else 1)'; then
+              echo "Sem novo teste automatico elegivel"
+              exit 0
+            fi
+          fi
           python bridge.py enviar
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
