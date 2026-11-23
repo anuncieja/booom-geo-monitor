@@ -1,8 +1,8 @@
 {
   "schema": 1,
-  "job_id": "poc-gh-2026112301",
+  "job_id": "poc-gh-45290036508",
   "pergunta": "Qual é a capital de Minas Gerais?",
   "tipo": "TESTE_TECNICO",
-  "criado_em": "2026-11-23",
-  "origem": "commit_conector_github"
+  "criado_em": "2026-11-23T20:34:55-03:00",
+  "origem": "github_actions"
 }
