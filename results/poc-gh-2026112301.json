@@ -1,0 +1,13 @@
+{
+  "job_id": "poc-gh-2026112301",
+  "pergunta": "Qual é a capital de Minas Gerais?",
+  "status": "CONCLUIDA",
+  "tipo": "TESTE_TECNICO",
+  "criado_em": "2026-11-23",
+  "respondido_em": "2026-11-23",
+  "resposta": "Belo Horizonte é a capital de Minas Gerais.",
+  "origem": "ChatGPT — teste integrado nesta conversa",
+  "evidencia": "Job lido do GitHub e resposta gravada no Sheets via conectores; sem sessão independente.",
+  "sheet_row": 4,
+  "auditoria_geo_valida": false
+}
