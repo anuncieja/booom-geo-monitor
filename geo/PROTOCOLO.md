@@ -1,0 +1,7 @@
+# Protocolo GEO experimental — autorizado em 23/11/2026
+
+45 slots (15 perguntas literais × 3 repetições), separados dos testes técnicos. A execução em tarefas GPT não comprova isolamento; repetições podem compartilhar contexto, modelo e fontes. Não são amostras independentes da interface ChatGPT e não são comparáveis com Business Hub. Não chamar este resultado de ranking espontâneo.
+
+Fila: geo/queue.json. Registro da rodada: geo/rounds/2026-11-23.json. Respostas devem ser efetivamente geradas pelo ChatGPT durante a execução, com origem, data, modelo se conhecido, modo e fontes usadas se houver. Não substituir resposta por resultados brutos de busca. Não inventar fontes, empresas, posições ou evidências. Uma resposta sem verificação pode declarar incerteza. A análise de menções é literal e separada da geração.
+
+A tarefa trabalha em lotes pequenos, sem compras, APIs pagas ou aumento de plano; em caso de limite, interrompe e informa. Os resultados comerciais contêm somente informações públicas, sem dados de clientes ou URL da planilha. As 45 respostas são uma meta e não uma garantia. Não sobrescrever resultados concluídos. A planilha privada continua sendo registro operacional. O painel exibe o progresso e textos efetivamente registrados.

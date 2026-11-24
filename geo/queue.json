@@ -1,0 +1,323 @@
+{
+  "schema": 1,
+  "rodada": "2026-11-23",
+  "metodo": "GEO_EXPERIMENTAL_TAREFAS_GPT",
+  "independencia_comprovada": false,
+  "items": [
+    {
+      "id": "2026-11-23-q01-r1",
+      "consulta": "01",
+      "repeticao": 1,
+      "cidade": "Curitiba",
+      "pergunta": "Quais são as melhores agências de marketing digital em Curitiba?"
+    },
+    {
+      "id": "2026-11-23-q02-r1",
+      "consulta": "02",
+      "repeticao": 1,
+      "cidade": "Curitiba",
+      "pergunta": "Qual agência contratar para melhorar o SEO de uma empresa em Curitiba?"
+    },
+    {
+      "id": "2026-11-23-q03-r1",
+      "consulta": "03",
+      "repeticao": 1,
+      "cidade": "Curitiba",
+      "pergunta": "Indique agências de tráfego pago em Curitiba."
+    },
+    {
+      "id": "2026-11-23-q04-r1",
+      "consulta": "04",
+      "repeticao": 1,
+      "cidade": "Pinhais",
+      "pergunta": "Quais agências de marketing digital atendem empresas em Pinhais?"
+    },
+    {
+      "id": "2026-11-23-q05-r1",
+      "consulta": "05",
+      "repeticao": 1,
+      "cidade": "Pinhais",
+      "pergunta": "Quem contratar para SEO em Pinhais?"
+    },
+    {
+      "id": "2026-11-23-q06-r1",
+      "consulta": "06",
+      "repeticao": 1,
+      "cidade": "Pinhais",
+      "pergunta": "Recomende empresas de tráfego pago para negócios em Pinhais."
+    },
+    {
+      "id": "2026-11-23-q07-r1",
+      "consulta": "07",
+      "repeticao": 1,
+      "cidade": "São José dos Pinhais",
+      "pergunta": "Quais são as agências de marketing digital recomendadas em São José dos Pinhais?"
+    },
+    {
+      "id": "2026-11-23-q08-r1",
+      "consulta": "08",
+      "repeticao": 1,
+      "cidade": "São José dos Pinhais",
+      "pergunta": "Quem oferece serviços de SEO em São José dos Pinhais?"
+    },
+    {
+      "id": "2026-11-23-q09-r1",
+      "consulta": "09",
+      "repeticao": 1,
+      "cidade": "São José dos Pinhais",
+      "pergunta": "Indique uma agência para gerar leads em São José dos Pinhais."
+    },
+    {
+      "id": "2026-11-23-q10-r1",
+      "consulta": "10",
+      "repeticao": 1,
+      "cidade": "Ponta Grossa",
+      "pergunta": "Quais agências de marketing digital atendem Ponta Grossa?"
+    },
+    {
+      "id": "2026-11-23-q11-r1",
+      "consulta": "11",
+      "repeticao": 1,
+      "cidade": "Ponta Grossa",
+      "pergunta": "Quais empresas trabalham com SEO em Ponta Grossa?"
+    },
+    {
+      "id": "2026-11-23-q12-r1",
+      "consulta": "12",
+      "repeticao": 1,
+      "cidade": "Ponta Grossa",
+      "pergunta": "Qual agência pode ajudar uma empresa a conseguir clientes em Ponta Grossa?"
+    },
+    {
+      "id": "2026-11-23-q13-r1",
+      "consulta": "13",
+      "repeticao": 1,
+      "cidade": "Joinville",
+      "pergunta": "Quais são as agências de marketing digital recomendadas em Joinville?"
+    },
+    {
+      "id": "2026-11-23-q14-r1",
+      "consulta": "14",
+      "repeticao": 1,
+      "cidade": "Joinville",
+      "pergunta": "Indique empresas especializadas em SEO para negócios de Joinville."
+    },
+    {
+      "id": "2026-11-23-q15-r1",
+      "consulta": "15",
+      "repeticao": 1,
+      "cidade": "Joinville",
+      "pergunta": "Quem contratar para gestão de tráfego pago em Joinville?"
+    },
+    {
+      "id": "2026-11-23-q01-r2",
+      "consulta": "01",
+      "repeticao": 2,
+      "cidade": "Curitiba",
+      "pergunta": "Quais são as melhores agências de marketing digital em Curitiba?"
+    },
+    {
+      "id": "2026-11-23-q02-r2",
+      "consulta": "02",
+      "repeticao": 2,
+      "cidade": "Curitiba",
+      "pergunta": "Qual agência contratar para melhorar o SEO de uma empresa em Curitiba?"
+    },
+    {
+      "id": "2026-11-23-q03-r2",
+      "consulta": "03",
+      "repeticao": 2,
+      "cidade": "Curitiba",
+      "pergunta": "Indique agências de tráfego pago em Curitiba."
+    },
+    {
+      "id": "2026-11-23-q04-r2",
+      "consulta": "04",
+      "repeticao": 2,
+      "cidade": "Pinhais",
+      "pergunta": "Quais agências de marketing digital atendem empresas em Pinhais?"
+    },
+    {
+      "id": "2026-11-23-q05-r2",
+      "consulta": "05",
+      "repeticao": 2,
+      "cidade": "Pinhais",
+      "pergunta": "Quem contratar para SEO em Pinhais?"
+    },
+    {
+      "id": "2026-11-23-q06-r2",
+      "consulta": "06",
+      "repeticao": 2,
+      "cidade": "Pinhais",
+      "pergunta": "Recomende empresas de tráfego pago para negócios em Pinhais."
+    },
+    {
+      "id": "2026-11-23-q07-r2",
+      "consulta": "07",
+      "repeticao": 2,
+      "cidade": "São José dos Pinhais",
+      "pergunta": "Quais são as agências de marketing digital recomendadas em São José dos Pinhais?"
+    },
+    {
+      "id": "2026-11-23-q08-r2",
+      "consulta": "08",
+      "repeticao": 2,
+      "cidade": "São José dos Pinhais",
+      "pergunta": "Quem oferece serviços de SEO em São José dos Pinhais?"
+    },
+    {
+      "id": "2026-11-23-q09-r2",
+      "consulta": "09",
+      "repeticao": 2,
+      "cidade": "São José dos Pinhais",
+      "pergunta": "Indique uma agência para gerar leads em São José dos Pinhais."
+    },
+    {
+      "id": "2026-11-23-q10-r2",
+      "consulta": "10",
+      "repeticao": 2,
+      "cidade": "Ponta Grossa",
+      "pergunta": "Quais agências de marketing digital atendem Ponta Grossa?"
+    },
+    {
+      "id": "2026-11-23-q11-r2",
+      "consulta": "11",
+      "repeticao": 2,
+      "cidade": "Ponta Grossa",
+      "pergunta": "Quais empresas trabalham com SEO em Ponta Grossa?"
+    },
+    {
+      "id": "2026-11-23-q12-r2",
+      "consulta": "12",
+      "repeticao": 2,
+      "cidade": "Ponta Grossa",
+      "pergunta": "Qual agência pode ajudar uma empresa a conseguir clientes em Ponta Grossa?"
+    },
+    {
+      "id": "2026-11-23-q13-r2",
+      "consulta": "13",
+      "repeticao": 2,
+      "cidade": "Joinville",
+      "pergunta": "Quais são as agências de marketing digital recomendadas em Joinville?"
+    },
+    {
+      "id": "2026-11-23-q14-r2",
+      "consulta": "14",
+      "repeticao": 2,
+      "cidade": "Joinville",
+      "pergunta": "Indique empresas especializadas em SEO para negócios de Joinville."
+    },
+    {
+      "id": "2026-11-23-q15-r2",
+      "consulta": "15",
+      "repeticao": 2,
+      "cidade": "Joinville",
+      "pergunta": "Quem contratar para gestão de tráfego pago em Joinville?"
+    },
+    {
+      "id": "2026-11-23-q01-r3",
+      "consulta": "01",
+      "repeticao": 3,
+      "cidade": "Curitiba",
+      "pergunta": "Quais são as melhores agências de marketing digital em Curitiba?"
+    },
+    {
+      "id": "2026-11-23-q02-r3",
+      "consulta": "02",
+      "repeticao": 3,
+      "cidade": "Curitiba",
+      "pergunta": "Qual agência contratar para melhorar o SEO de uma empresa em Curitiba?"
+    },
+    {
+      "id": "2026-11-23-q03-r3",
+      "consulta": "03",
+      "repeticao": 3,
+      "cidade": "Curitiba",
+      "pergunta": "Indique agências de tráfego pago em Curitiba."
+    },
+    {
+      "id": "2026-11-23-q04-r3",
+      "consulta": "04",
+      "repeticao": 3,
+      "cidade": "Pinhais",
+      "pergunta": "Quais agências de marketing digital atendem empresas em Pinhais?"
+    },
+    {
+      "id": "2026-11-23-q05-r3",
+      "consulta": "05",
+      "repeticao": 3,
+      "cidade": "Pinhais",
+      "pergunta": "Quem contratar para SEO em Pinhais?"
+    },
+    {
+      "id": "2026-11-23-q06-r3",
+      "consulta": "06",
+      "repeticao": 3,
+      "cidade": "Pinhais",
+      "pergunta": "Recomende empresas de tráfego pago para negócios em Pinhais."
+    },
+    {
+      "id": "2026-11-23-q07-r3",
+      "consulta": "07",
+      "repeticao": 3,
+      "cidade": "São José dos Pinhais",
+      "pergunta": "Quais são as agências de marketing digital recomendadas em São José dos Pinhais?"
+    },
+    {
+      "id": "2026-11-23-q08-r3",
+      "consulta": "08",
+      "repeticao": 3,
+      "cidade": "São José dos Pinhais",
+      "pergunta": "Quem oferece serviços de SEO em São José dos Pinhais?"
+    },
+    {
+      "id": "2026-11-23-q09-r3",
+      "consulta": "09",
+      "repeticao": 3,
+      "cidade": "São José dos Pinhais",
+      "pergunta": "Indique uma agência para gerar leads em São José dos Pinhais."
+    },
+    {
+      "id": "2026-11-23-q10-r3",
+      "consulta": "10",
+      "repeticao": 3,
+      "cidade": "Ponta Grossa",
+      "pergunta": "Quais agências de marketing digital atendem Ponta Grossa?"
+    },
+    {
+      "id": "2026-11-23-q11-r3",
+      "consulta": "11",
+      "repeticao": 3,
+      "cidade": "Ponta Grossa",
+      "pergunta": "Quais empresas trabalham com SEO em Ponta Grossa?"
+    },
+    {
+      "id": "2026-11-23-q12-r3",
+      "consulta": "12",
+      "repeticao": 3,
+      "cidade": "Ponta Grossa",
+      "pergunta": "Qual agência pode ajudar uma empresa a conseguir clientes em Ponta Grossa?"
+    },
+    {
+      "id": "2026-11-23-q13-r3",
+      "consulta": "13",
+      "repeticao": 3,
+      "cidade": "Joinville",
+      "pergunta": "Quais são as agências de marketing digital recomendadas em Joinville?"
+    },
+    {
+      "id": "2026-11-23-q14-r3",
+      "consulta": "14",
+      "repeticao": 3,
+      "cidade": "Joinville",
+      "pergunta": "Indique empresas especializadas em SEO para negócios de Joinville."
+    },
+    {
+      "id": "2026-11-23-q15-r3",
+      "consulta": "15",
+      "repeticao": 3,
+      "cidade": "Joinville",
+      "pergunta": "Quem contratar para gestão de tráfego pago em Joinville?"
+    }
+  ]
+}
