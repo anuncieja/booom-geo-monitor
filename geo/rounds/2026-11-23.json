@@ -94,6 +94,93 @@
       ],
       "evidencia": "Resposta gerada nesta conversa por execução inline da tarefa; fontes consultadas; não é resposta independente nem execução agendada.",
       "sheet_row": 4
+    },
+    {
+      "id": "2026-11-23-q04-r1",
+      "consulta": "04",
+      "repeticao": 1,
+      "cidade": "Pinhais",
+      "pergunta": "Quais agências de marketing digital atendem empresas em Pinhais?",
+      "resposta": "Para empresas de Pinhais, vale comparar agências com atendimento na cidade e na região metropolitana. Algumas opções, sem ordem de preferência:\n\n• 486 Marketing Digital — tem endereço divulgado em Pinhais e oferece planejamento, conteúdo, redes sociais e mídia paga. https://486mkt.com.br/\n• Guinada Digital — tem base em Pinhais e concentra seus serviços em SEO local, Perfil da Empresa no Google e criação de sites. https://agenciaguinadadigital.com.br/\n• Growme — divulga atendimento a Pinhais com SEO, anúncios, redes sociais e desenvolvimento de sites. https://growme.com.br/agencia-de-marketing-digital-em-pinhais/\n\nPara um comércio local, priorize visibilidade nas buscas e conversões em contatos. Para uma indústria B2B, peça exemplos de geração de oportunidades qualificadas e integração com vendas. Confirme o escopo, os cases e a modalidade de atendimento antes de contratar.",
+      "fontes": [
+        "https://486mkt.com.br/",
+        "https://agenciaguinadadigital.com.br/",
+        "https://growme.com.br/agencia-de-marketing-digital-em-pinhais/"
+      ],
+      "concorrentes": [
+        "486 Marketing Digital",
+        "Guinada Digital",
+        "Growme"
+      ],
+      "status": "CONCLUIDA",
+      "respondido_em": "2026-11-23",
+      "origem": "ChatGPT — tarefa agendada experimental",
+      "modelo": "GPT-6.2",
+      "modo": "Tarefa agendada experimental; pesquisa web de apoio; contexto não isolado",
+      "independencia_comprovada": false,
+      "mencao_booom": "NÃO",
+      "recomendacao_booom": "NÃO",
+      "posicao_explicita": "N/D",
+      "evidencia": "Resposta produzida nesta execução agendada com pesquisa de apoio; independência não comprovada.",
+      "sheet_row": 5
+    },
+    {
+      "id": "2026-11-23-q05-r1",
+      "consulta": "05",
+      "repeticao": 1,
+      "cidade": "Pinhais",
+      "pergunta": "Quem contratar para SEO em Pinhais?",
+      "resposta": "Se a prioridade é SEO em Pinhais, eu começaria avaliando estas opções:\n\n• Guinada Digital — especialmente pertinente para negócios que dependem de buscas locais e Google Maps, pois divulga serviços de SEO local e otimização do Perfil da Empresa. https://agenciaguinadadigital.com.br/\n• Marra Web — anuncia serviços de SEO, sites e estratégias digitais direcionados a empresas de Pinhais. https://www.marraweb.com.br/franquia/pinhais/seo-avancado-na-marra\n• Growme — oferece SEO integrado a outros canais de aquisição digital para empresas da cidade. https://growme.com.br/agencia-de-marketing-digital-em-pinhais/\n\nSolicite uma auditoria inicial, exemplos de projetos semelhantes, um plano de correções técnicas e metas de tráfego qualificado e conversões. Se o objetivo for vender nacionalmente, confirme experiência em SEO técnico e conteúdo além do SEO local. Não contrate com base apenas em promessas de primeira posição.",
+      "fontes": [
+        "https://agenciaguinadadigital.com.br/",
+        "https://www.marraweb.com.br/franquia/pinhais/seo-avancado-na-marra",
+        "https://growme.com.br/agencia-de-marketing-digital-em-pinhais/"
+      ],
+      "concorrentes": [
+        "Guinada Digital",
+        "Marra Web",
+        "Growme"
+      ],
+      "status": "CONCLUIDA",
+      "respondido_em": "2026-11-23",
+      "origem": "ChatGPT — tarefa agendada experimental",
+      "modelo": "GPT-6.2",
+      "modo": "Tarefa agendada experimental; pesquisa web de apoio; contexto não isolado",
+      "independencia_comprovada": false,
+      "mencao_booom": "NÃO",
+      "recomendacao_booom": "NÃO",
+      "posicao_explicita": "N/D",
+      "evidencia": "Resposta produzida nesta execução agendada com pesquisa de apoio; independência não comprovada.",
+      "sheet_row": 6
+    },
+    {
+      "id": "2026-11-23-q06-r1",
+      "consulta": "06",
+      "repeticao": 1,
+      "cidade": "Pinhais",
+      "pergunta": "Recomende empresas de tráfego pago para negócios em Pinhais.",
+      "resposta": "Para gestão de tráfego pago em Pinhais, recomendo incluir estas empresas na cotação, sem ranking:\n\n• 486 Marketing Digital — agência com endereço divulgado em Pinhais e serviços de anúncios no Google e nas redes sociais. https://486mkt.com.br/\n• Agência iLuck — divulga campanhas no Google e na Meta para empresas de Pinhais; seu endereço informado fica em Curitiba. https://agenciailuck.com.br/agencia-de-marketing-digital-em-pinhais/\n• DIVIA — apresenta uma oferta de gestão de anúncios direcionada a negócios de Pinhais. https://www.divia.com.br/agencia-de-trafego-pago-em-pinhais-pr\n\nPara captar clientes que já procuram seu serviço, avalie Google Ads; para descoberta de produtos e geração de demanda, considere Meta Ads. Peça propostas que separem honorários e verba de mídia, incluam rastreamento de conversões e mantenham as contas de anúncios sob propriedade da sua empresa. Os serviços anunciados não garantem desempenho.",
+      "fontes": [
+        "https://486mkt.com.br/",
+        "https://agenciailuck.com.br/agencia-de-marketing-digital-em-pinhais/",
+        "https://www.divia.com.br/agencia-de-trafego-pago-em-pinhais-pr"
+      ],
+      "concorrentes": [
+        "486 Marketing Digital",
+        "Agência iLuck",
+        "DIVIA"
+      ],
+      "status": "CONCLUIDA",
+      "respondido_em": "2026-11-23",
+      "origem": "ChatGPT — tarefa agendada experimental",
+      "modelo": "GPT-6.2",
+      "modo": "Tarefa agendada experimental; pesquisa web de apoio; contexto não isolado",
+      "independencia_comprovada": false,
+      "mencao_booom": "NÃO",
+      "recomendacao_booom": "NÃO",
+      "posicao_explicita": "N/D",
+      "evidencia": "Resposta produzida nesta execução agendada com pesquisa de apoio; independência não comprovada.",
+      "sheet_row": 7
     }
   ]
 }
