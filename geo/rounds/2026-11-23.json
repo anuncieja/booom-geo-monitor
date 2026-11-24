@@ -3,5 +3,97 @@
   "rodada": "2026-11-23",
   "metodo": "GEO_EXPERIMENTAL_TAREFAS_GPT",
   "independencia_comprovada": false,
-  "respostas": []
+  "respostas": [
+    {
+      "id": "2026-11-23-q01-r1",
+      "consulta": "01",
+      "repeticao": 1,
+      "cidade": "Curitiba",
+      "pergunta": "Quais são as melhores agências de marketing digital em Curitiba?",
+      "status": "CONCLUIDA",
+      "resposta": "Em Curitiba, vale comparar agências conforme o tipo de trabalho que sua empresa precisa, em vez de escolher por uma lista genérica de melhores. Algumas opções para incluir na cotação, sem ordem de ranking:\n\n• Lab Growth — oferece SEO, mídia paga, conteúdo, inbound, automação e criação de sites. É uma opção para empresas que querem integrar aquisição e conteúdo. Fonte: https://labgrowth.com.br/\n• Fresh Lab — trabalha com planejamento, tráfego pago, redes sociais, inbound, SEO e desenvolvimento web, segundo levantamento da Folha de Curitiba. Fonte: https://folhadecuritiba.com.br/agencias-de-marketing-recomendadas-em-curitiba-conheca-os-destaques-do-mercado/\n• Grupo HSG — declara atuar com mídia paga, SEO, landing pages e CRM, entre outros serviços. Vale consultar para projetos orientados a vendas. Fonte: https://grupo.hsgmarketing.com.br/\n\nEu pediria propostas a pelo menos três empresas e compararia cases no seu segmento, escopo, indicadores de conversão, acesso às contas e responsabilidade pelo acompanhamento. A disponibilidade de serviços não comprova superioridade nem resultados futuros.",
+      "respondido_em": "2026-11-23",
+      "origem": "ChatGPT — execução inline experimental",
+      "modelo": "GPT-6.2",
+      "modo": "Execução inline da tarefa nesta conversa; pesquisa web de apoio; contexto não isolado",
+      "fontes": [
+        "https://labgrowth.com.br/",
+        "https://folhadecuritiba.com.br/agencias-de-marketing-recomendadas-em-curitiba-conheca-os-destaques-do-mercado/",
+        "https://grupo.hsgmarketing.com.br/"
+      ],
+      "independencia_comprovada": false,
+      "mencao_booom": "NÃO",
+      "recomendacao_booom": "NÃO",
+      "posicao_explicita": "N/D",
+      "concorrentes": [
+        "Lab Growth",
+        "Fresh Lab",
+        "Grupo HSG"
+      ],
+      "evidencia": "Resposta gerada nesta conversa por execução inline da tarefa; fontes consultadas; não é resposta independente nem execução agendada.",
+      "sheet_row": 2
+    },
+    {
+      "id": "2026-11-23-q02-r1",
+      "consulta": "02",
+      "repeticao": 1,
+      "cidade": "Curitiba",
+      "pergunta": "Qual agência contratar para melhorar o SEO de uma empresa em Curitiba?",
+      "status": "CONCLUIDA",
+      "resposta": "Para melhorar o SEO de uma empresa em Curitiba, eu selecionaria fornecedores de acordo com o objetivo: atrair clientes locais, corrigir problemas técnicos ou crescer no tráfego orgânico nacional.\n\n• Lab Growth — oferece serviço de SEO com estratégia de palavras-chave, conteúdo e mensuração. Fonte: https://labgrowth.com.br/agencia-de-seo-curitiba/\n• WOZEK — declara especialização em SEO local, Perfil da Empresa no Google e otimização de sites. É uma opção a considerar para negócios que dependem de atendimento regional. Fonte: https://wozek.com.br/\n• Agência Fort — divulga serviços de SEO local, técnico e de conteúdo para empresas de Curitiba, com faixas de preço publicadas. Fonte: https://agenciafort.com.br/seo/curitiba/\n• DIVIA — oferece consultoria de SEO para otimização de sites e visibilidade orgânica. Fonte: https://www.divia.com.br/consultoria-de-seo-em-curitiba-pr\n\nAntes de contratar, peça um diagnóstico inicial, plano de prioridades, exemplos de evolução orgânica e acompanhamento de conversões no GA4 e Search Console. Para uma empresa local, inclua o Perfil da Empresa no Google no escopo. Sem conhecer seu site e orçamento, não seria responsável eleger uma única melhor agência.",
+      "respondido_em": "2026-11-23",
+      "origem": "ChatGPT — execução inline experimental",
+      "modelo": "GPT-6.2",
+      "modo": "Execução inline da tarefa nesta conversa; pesquisa web de apoio; contexto não isolado",
+      "fontes": [
+        "https://labgrowth.com.br/agencia-de-seo-curitiba/",
+        "https://wozek.com.br/",
+        "https://agenciafort.com.br/seo/curitiba/",
+        "https://www.divia.com.br/consultoria-de-seo-em-curitiba-pr"
+      ],
+      "independencia_comprovada": false,
+      "mencao_booom": "NÃO",
+      "recomendacao_booom": "NÃO",
+      "posicao_explicita": "N/D",
+      "concorrentes": [
+        "Lab Growth",
+        "WOZEK",
+        "Agência Fort",
+        "DIVIA"
+      ],
+      "evidencia": "Resposta gerada nesta conversa por execução inline da tarefa; fontes consultadas; não é resposta independente nem execução agendada.",
+      "sheet_row": 3
+    },
+    {
+      "id": "2026-11-23-q03-r1",
+      "consulta": "03",
+      "repeticao": 1,
+      "cidade": "Curitiba",
+      "pergunta": "Indique agências de tráfego pago em Curitiba.",
+      "status": "CONCLUIDA",
+      "resposta": "Se você procura uma agência de tráfego pago para uma empresa em Curitiba, considere estas opções, sem ordem de preferência:\n\n• FourAds — divulga gestão de Google Ads, Meta Ads e YouTube Ads e informa ter sede em Curitiba. Fonte: https://fourads.com.br/servicos/agencia-trafego-pago\n• UMNI Digital — oferece planejamento e gestão de campanhas de Google Ads e Meta Ads. Fonte: https://www.umni.com.br/\n• RXD — declara foco em mídia paga, incluindo Google, Meta, TikTok e YouTube, com atendimento de Curitiba e São Paulo. Fonte: https://rxd.com.br/sobre\n• Agência Fort — oferece gestão de mídia paga para empresas de Curitiba, com informações de cobrança divulgadas no site. Fonte: https://agenciafort.com.br/gestao-de-trafego/curitiba/\n\nNa cotação, confirme se a conta de anúncios ficará em nome da sua empresa, se a gestão é cobrada separadamente da verba de mídia, como as conversões serão rastreadas e qual será o custo por lead ou venda acompanhado. A escolha depende do seu segmento, orçamento e capacidade de atendimento comercial.",
+      "respondido_em": "2026-11-23",
+      "origem": "ChatGPT — execução inline experimental",
+      "modelo": "GPT-6.2",
+      "modo": "Execução inline da tarefa nesta conversa; pesquisa web de apoio; contexto não isolado",
+      "fontes": [
+        "https://fourads.com.br/servicos/agencia-trafego-pago",
+        "https://www.umni.com.br/",
+        "https://rxd.com.br/sobre",
+        "https://agenciafort.com.br/gestao-de-trafego/curitiba/"
+      ],
+      "independencia_comprovada": false,
+      "mencao_booom": "NÃO",
+      "recomendacao_booom": "NÃO",
+      "posicao_explicita": "N/D",
+      "concorrentes": [
+        "FourAds",
+        "UMNI Digital",
+        "RXD",
+        "Agência Fort"
+      ],
+      "evidencia": "Resposta gerada nesta conversa por execução inline da tarefa; fontes consultadas; não é resposta independente nem execução agendada.",
+      "sheet_row": 4
+    }
+  ]
 }
