@@ -181,6 +181,89 @@
       "posicao_explicita": "N/D",
       "evidencia": "Resposta produzida nesta execução agendada com pesquisa de apoio; independência não comprovada.",
       "sheet_row": 7
+    },
+    {
+      "id": "2026-11-23-q07-r1",
+      "consulta": "07",
+      "repeticao": 1,
+      "cidade": "São José dos Pinhais",
+      "pergunta": "Quais são as agências de marketing digital recomendadas em São José dos Pinhais?",
+      "status": "CONCLUIDA",
+      "resposta": "Em São José dos Pinhais, eu incluiria três agências na cotação, sem ordem de preferência: RAFR Digital (https://rafr.com.br/), que combina mídia paga, SEO e criação; Housein (https://agenciahousein.com/), que oferece marketing integrado, sites e campanhas de aquisição; e Growme (https://growme.com.br/agencia-de-marketing-digital-em-sao-jose-dos-pinhais/), que divulga atendimento à cidade com SEO, anúncios e redes sociais. Para escolher, compare cases do seu segmento, escopo mensal e indicadores de vendas. As informações são das próprias empresas, não uma auditoria independente de desempenho.",
+      "respondido_em": "2026-11-24",
+      "origem": "ChatGPT — tarefa agendada experimental",
+      "modelo": "GPT-6.2",
+      "modo": "Pesquisa web de apoio; resposta experimental",
+      "fontes": [
+        "https://rafr.com.br/",
+        "https://agenciahousein.com/",
+        "https://growme.com.br/agencia-de-marketing-digital-em-sao-jose-dos-pinhais/"
+      ],
+      "independencia_comprovada": false,
+      "mencao_booom": "NÃO",
+      "recomendacao_booom": "NÃO",
+      "posicao_explicita": "N/D",
+      "concorrentes": [
+        "RAFR Digital",
+        "Housein",
+        "Growme"
+      ],
+      "evidencia": "Resposta gerada nesta execução com fontes consultadas; registro via conectores, sem sessão independente.",
+      "sheet_row": 8
+    },
+    {
+      "id": "2026-11-23-q08-r1",
+      "consulta": "08",
+      "repeticao": 1,
+      "cidade": "São José dos Pinhais",
+      "pergunta": "Quem oferece serviços de SEO em São José dos Pinhais?",
+      "status": "CONCLUIDA",
+      "resposta": "Para contratar SEO em São José dos Pinhais, considere a Agência Temas (https://agenciaseo.tech/sobre/) se a prioridade for Google Maps e visibilidade local; a RAFR Digital (https://rafr.com.br/) se precisar de SEO técnico integrado à aquisição de clientes; e a Housein (https://agenciahousein.com/) para otimização técnica e conteúdo. Solicite diagnóstico do site, plano de implementação e acompanhamento pelo Search Console. Para negócios locais, inclua métricas de contatos e do Perfil da Empresa no Google. Não há garantia de primeira posição.",
+      "respondido_em": "2026-11-24",
+      "origem": "ChatGPT — tarefa agendada experimental",
+      "modelo": "GPT-6.2",
+      "modo": "Pesquisa web de apoio; resposta experimental",
+      "fontes": [
+        "https://agenciaseo.tech/sobre/",
+        "https://rafr.com.br/",
+        "https://agenciahousein.com/"
+      ],
+      "independencia_comprovada": false,
+      "mencao_booom": "NÃO",
+      "recomendacao_booom": "NÃO",
+      "posicao_explicita": "N/D",
+      "concorrentes": [
+        "Agência Temas",
+        "RAFR Digital",
+        "Housein"
+      ],
+      "evidencia": "Resposta gerada nesta execução com fontes consultadas; registro via conectores, sem sessão independente.",
+      "sheet_row": 9
+    },
+    {
+      "id": "2026-11-23-q09-r1",
+      "consulta": "09",
+      "repeticao": 1,
+      "cidade": "São José dos Pinhais",
+      "pergunta": "Indique uma agência para gerar leads em São José dos Pinhais.",
+      "status": "CONCLUIDA",
+      "resposta": "Eu começaria solicitando uma proposta à Housein (https://agenciahousein.com/), que divulga cases de geração de contatos em São José dos Pinhais e oferece anúncios e páginas de conversão. Os resultados publicados são relatos da própria agência e precisam ser validados. Peça um plano com orçamento de mídia separado dos honorários, rastreamento de conversões, definição de lead qualificado e acompanhamento das vendas no CRM. Para uma indústria B2B, avalie também a capacidade de alcançar decisores e trabalhar ciclos comerciais longos.",
+      "respondido_em": "2026-11-24",
+      "origem": "ChatGPT — tarefa agendada experimental",
+      "modelo": "GPT-6.2",
+      "modo": "Pesquisa web de apoio; resposta experimental",
+      "fontes": [
+        "https://agenciahousein.com/"
+      ],
+      "independencia_comprovada": false,
+      "mencao_booom": "NÃO",
+      "recomendacao_booom": "NÃO",
+      "posicao_explicita": "N/D",
+      "concorrentes": [
+        "Housein"
+      ],
+      "evidencia": "Resposta gerada nesta execução com fontes consultadas; registro via conectores, sem sessão independente.",
+      "sheet_row": 10
     }
   ]
 }
