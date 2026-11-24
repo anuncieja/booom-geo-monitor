@@ -100,11 +100,11 @@
       const workflow=await request("actions/workflows/ponte.yml",{credential:candidate});
       if(workflow.state!=="active")throw new Error("O workflow não está ativo.");
       token=candidate;setAuthenticatedReader(path=>request(path));$("token").value="";$("auth-status").textContent="Leitura autorizada";$("auth-status").className="pill good";$("connect").textContent="Encerrar sessão";dialog.close();
-      setStatus("Token aceito para leitura do workflow. O direito de disparo será confirmado no primeiro envio.");
+      setStatus("Token aceito para leitura. A rodada comercial está sendo processada pela tarefa agendada.");
       const pending=queuedAction;queuedAction=null;if(pending)start(pending);else await refresh();
     }catch(e){$("auth-error").textContent=e.message}finally{$("auth-submit").disabled=false}
   });
-  $("dispatch").addEventListener("click",()=>start("enviar"));
-  $("collect").addEventListener("click",()=>start("recolher"));
+  $("dispatch").addEventListener("click",()=>document.getElementById("geo-experimental").scrollIntoView({behavior:"smooth"}));
+  $("collect").addEventListener("click",()=>{document.getElementById("geo-refresh").click();document.getElementById("geo-experimental").scrollIntoView({behavior:"smooth"});});
   window.addEventListener("pagehide",forget);
 })();
