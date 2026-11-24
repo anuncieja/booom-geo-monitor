@@ -1,4 +1,4 @@
-# BOOOM GEO Monitor — POC 0.4
+# BOOOM GEO Monitor — POC 0.4.1
 
 Ponte GitHub ↔ ChatGPT agendado ↔ Google Sheets, sem API OpenAI. Painel estático em `docs/`, preparado para GitHub Pages (main, /docs). O painel lê dados públicos e dispara workflows com token fine-grained, restrito ao repositório e mantido exclusivamente em memória durante a sessão aberta. Não permite disparo anônimo.
 
@@ -24,3 +24,6 @@ Não armazene chaves, informações privadas de clientes ou respostas sensíveis
 - Os resultados técnicos pequenos ficam no Git; não publique dados confidenciais.
 - A tarefa ChatGPT utiliza a franquia do plano existente. Em caso de limite, interrompa e aguarde a renovação da franquia; não compre créditos automaticamente.
 - A hospedagem e a automação respeitam os limites e termos dos serviços. Não há promessa de uso ilimitado ou gratuito para sempre.
+
+### Diagnóstico de acesso
+A leitura usa o token quando autorizado, inclusive para a pré-validação da fila. A interface distingue erro HTTP de leitura, disparo e acompanhamento, e mostra a mensagem do GitHub sem expor o token. A autorização de leitura não comprova permissão de disparo; esta é confirmada após POST bem-sucedido. Não há ampliação automática de permissões.

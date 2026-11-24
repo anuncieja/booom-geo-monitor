@@ -14,7 +14,7 @@
   };
   const showAuth = () => { $("auth-error").textContent=""; $("token").value=""; if(!dialog.open) dialog.showModal(); $("token").focus(); };
   function forget(){
-    token=""; queuedAction=null; $("token").value="";
+    token=""; queuedAction=null; setAuthenticatedReader(null); $("token").value="";
     $("auth-status").textContent="Não autorizado";
     $("auth-status").className="pill";
     $("connect").textContent="Autorizar painel";
@@ -25,8 +25,23 @@
     if(body!==undefined) headers["Content-Type"]="application/json";
     const res=await fetch(api+path,{method,headers,body:body===undefined?undefined:JSON.stringify(body),cache:"no-store",redirect:"error",credentials:"omit"});
     if(!res.ok){
-      const msg={401:"Token inválido ou expirado.",403:"Acesso negado ou limite da API. Verifique Actions: Read and write.",404:"Repositório/workflow não acessível com este token.",422:"Comando inválido ou workflow indisponível.",429:"Limite de requisições. Tente mais tarde."};
-      const error=new Error(msg[res.status]||("GitHub HTTP "+res.status));error.status=res.status;throw error;
+      let details="";
+      try{const payload=await res.json();details=typeof payload.message==="string"?payload.message:"";}catch{}
+      if(credential)details=details.split(credential).join("[oculto]");
+      details=details.replace(/github_pat_[A-Za-z0-9_]+/g,"[oculto]").slice(0,350);
+      const remaining=res.headers.get("x-ratelimit-remaining");
+      const retry=res.headers.get("retry-after");
+      const accepted=res.headers.get("x-accepted-github-permissions");
+      let hint="";
+      if(res.status===401)hint="Token inválido ou expirado.";
+      else if(res.status===429||remaining==="0"||retry)hint="Limite de requisições; aguarde a renovação da franquia"+(retry?" ("+retry+" s).":".");
+      else if(res.status===403&&method==="POST")hint="O GitHub recusou o disparo. Confira o token: proprietário anuncieja, repositório booom-geo-monitor, Actions: Read and write.";
+      else if(res.status===403)hint="Leitura autenticada recusada. Confira o acesso ao repositório.";
+      else if(res.status===404)hint="Recurso não encontrado ou sem acesso.";
+      else if(res.status===422)hint="Parâmetros rejeitados.";
+      const phase=method==="POST"?"Disparo":path.startsWith("contents/")?"Leitura da fila":"Consulta do workflow";
+      const error=new Error(phase+" — HTTP "+res.status+". "+hint+(details?" GitHub: "+details:"")+(accepted?" Permissões exigidas: "+accepted+".":""));
+      error.status=res.status;throw error;
     }
     return res.status===204?null:res.json();
   }
@@ -37,6 +52,7 @@
     setBusy(true);
     try{
       if(action==="enviar"){
+        setStatus("Conferindo a fila com autenticação…");
         const job=await file("queue/job.json");
         if(!/^poc-gh-[0-9]+$/.test(job.job_id))throw new Error("Fila inválida.");
         try{
@@ -46,6 +62,7 @@
       }
       setStatus("Enviando comando ao GitHub Actions…");
       const result=await request("actions/workflows/ponte.yml/dispatches",{method:"POST",body:{ref:"main",inputs:{acao:action}}});
+      $("auth-status").textContent="Disparo autorizado";
       const runId=result?.workflow_run_id;
       if(!Number.isSafeInteger(runId)||runId<=0){
         setStatus("Comando aceito pelo GitHub, mas o identificador da execução não foi retornado. Atualize o painel para consultar a fila.");
@@ -82,9 +99,9 @@
     try{
       const workflow=await request("actions/workflows/ponte.yml",{credential:candidate});
       if(workflow.state!=="active")throw new Error("O workflow não está ativo.");
-      token=candidate;$("token").value="";$("auth-status").textContent="Sessão autorizada";$("auth-status").className="pill good";$("connect").textContent="Encerrar sessão";dialog.close();
+      token=candidate;setAuthenticatedReader(path=>request(path));$("token").value="";$("auth-status").textContent="Leitura autorizada";$("auth-status").className="pill good";$("connect").textContent="Encerrar sessão";dialog.close();
       setStatus("Token aceito para leitura do workflow. O direito de disparo será confirmado no primeiro envio.");
-      const pending=queuedAction;queuedAction=null;if(pending)start(pending);
+      const pending=queuedAction;queuedAction=null;if(pending)start(pending);else await refresh();
     }catch(e){$("auth-error").textContent=e.message}finally{$("auth-submit").disabled=false}
   });
   $("dispatch").addEventListener("click",()=>start("enviar"));

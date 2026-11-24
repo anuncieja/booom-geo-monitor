@@ -8,6 +8,8 @@ on:
       - '.github/workflows/ponte.yml'
       - 'bridge.py'
       - 'test_bridge.py'
+      - 'docs/app.js'
+      - 'docs/control.js'
   workflow_dispatch:
     inputs:
       acao:
@@ -34,6 +36,10 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m unittest -v
+      - name: Validar sintaxe JavaScript do painel
+        run: |
+          node --check docs/app.js
+          node --check docs/control.js
       - name: Enviar teste
         if: github.event_name != 'workflow_dispatch' || inputs.acao == 'enviar'
         env:
